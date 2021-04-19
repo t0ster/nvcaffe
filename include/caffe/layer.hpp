@@ -479,6 +479,7 @@ class LayerBase {
   DISABLE_COPY_MOVE_AND_ASSIGN(LayerBase);
 };  // class LayerBase
 
+  inline Phase phase() { return phase_; }
 
 template<typename Ftype, typename Btype>
 class Layer : public LayerBase {

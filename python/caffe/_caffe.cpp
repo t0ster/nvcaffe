@@ -8,6 +8,7 @@
 #include <boost/python.hpp>
 #include <boost/python/raw_function.hpp>
 #include <boost/python/suite/indexing/vector_indexing_suite.hpp>
+#include <boost/python/enum.hpp>
 #include <numpy/arrayobject.h>
 
 // these need to be included after boost on OS X
